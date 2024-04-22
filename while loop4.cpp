@@ -21,12 +21,16 @@ int main() {
         //if the user enter the correct datatype but wrong numbers it will tell him and tries again
         else if(input<5||input>10){
             cout<<"sorry youve entered an incorrect number.Please try again :"<<endl;
+            cout<<endl;
+            cout<<"you entered  "<<input<< " please enter a number between 5 to 10"<<endl;
         }
         else{
             uservalue=true;
         }
     } 
     //the user now has entered a correct value and it has terminated in the while loop and tells the user that it has been accepted
-    cout<<"your input value   "<<input<<" has been accepted"<<endl;
+     cout<<"your input value  ( "<<input<<" )has been accepted"<<endl;
+     
+     return 0;
 
 }
