@@ -29,8 +29,7 @@ int main() {
         }
     } 
     //the user now has entered a correct value and it has terminated in the while loop and tells the user that it has been accepted
-     cout<<"your input value  ( "<<input<<" )has been accepted"<<endl;
-     
-     return 0;
 
+     cout<<"your input value  ( "<<input<<" )has been accepted"<<endl;     
+     return 0;
 }
