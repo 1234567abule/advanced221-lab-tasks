@@ -4,7 +4,7 @@
 #include "Box.cpp"
 
 int main()
-{
+{//creacting objects from our box class and it will be initialised by our constructor
     Box Box1;
     Box Box2;
     Box Box3;
